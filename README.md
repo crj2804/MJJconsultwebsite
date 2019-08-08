@@ -1,2 +1,0 @@
-# MJJconsultwebsite
-Created with CodeSandbox
