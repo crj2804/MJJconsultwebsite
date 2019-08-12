@@ -1,5 +1,4 @@
 import React from "react";
-import "/src/statement.scss";
 
 class missionStatement extends React.Component {
   render() {

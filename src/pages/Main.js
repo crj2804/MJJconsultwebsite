@@ -1,6 +1,5 @@
 import React from "react";
-import "/src/homepage.scss";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./About";
 import Advantages from "./Advantages";
 import Contact from "./Contact";

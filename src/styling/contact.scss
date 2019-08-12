@@ -1,0 +1,80 @@
+@mixin transition($x...) {
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  -ms-transition: $x;
+  -o-transition: $x;
+  transition: $x;
+}
+
+
+form {
+  display: grid;
+  margin: 0 35%;
+
+  > button {
+    width: 20%;
+    margin: 5px 40%;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    
+  }
+  >button:focus {
+    outline:none;
+
+  }
+
+  > p {
+    color: #fff;
+    margin: 0 10%;
+
+  }
+}
+
+.namefield {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px #fff solid;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.namefield:focus{
+  outline: none;
+}
+
+.emailfield {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px #fff solid;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.emailfield:focus {
+  outline: none;
+}
+
+.messagefield {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px #fff solid;
+  height: 100px;
+  box-sizing: border-box;
+  color: #fff;
+  
+}
+
+.messagefield:focus{
+  outline: none;
+}
+
+
+label {
+  color: white;
+
+}
+
+
+

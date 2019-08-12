@@ -1,0 +1,57 @@
+
+.inline {
+  display: inline-block;
+  margin: 0 10px; 
+  padding-left: 4px;
+  color: white;
+  flex: 1;
+  
+  > h2 {
+    font-size: 1.6em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  > p {
+    border-left: 1px solid #fff;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: .7em;
+    position: relative;
+
+    > span {
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+.card-container {
+  // padding: 75px 30%;
+  margin: 0 15%;
+  padding: 50px 40px;
+  display: flex;
+}
+
+body {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  
+  /* Flexbox stuff */
+  display: relative;
+  justify-content: center;
+  align-items: center;
+  
+  /* Text styles */
+
+  
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
